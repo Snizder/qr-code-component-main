@@ -1,7 +1,7 @@
 body{
 background-color:hsl(212, 45%, 89%);;
 font-family: "Outfit", sans-serif;
-font-size: 15px;
+font-size:15px ;
 }
 .size{
     display: flex;
@@ -12,31 +12,43 @@ font-size: 15px;
 } 
 .container{
     background-color: hsl(0, 0%, 100%);
-    width: 200px;
-    border-radius: 12px;
+    height: 550px;
+    width: 375px;
+    border-radius: 20px;
 
 }
 .box-qrcode{
-    margin: 10px;
+    margin: 20px;
 }
 .box-qrcode img{
     max-width: 100%;
-    border-radius: 8px;
+    border-radius: 12px;
 }
-.box-qrcode span{
-    text-transform: uppercase;
-    padding: 5px;
+.box-qrcode h2{
     margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     text-align: center;
     color: hsl(218, 44%, 22%);
     font-weight: 700;
 }
 .box-qrcode p{
-    text-transform: lowercase;
     color: hsl(216, 15%, 48%);
-    margin-top: 2px;
     text-align: center;
     font-weight: 400;
-    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 375px) {
+.container {
+    width: 90%;
+    padding: 12px;
+}
+
+.box-qrcode h2 {
+    font-size: 16px;
+}
+
+.box-qrcode p {
+    font-size: 13px;
+}
 }
