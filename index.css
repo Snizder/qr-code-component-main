@@ -37,18 +37,3 @@ font-size:15px ;
     font-weight: 400;
     line-height: 1.5;
 }
-
-@media screen and (max-width: 375px) {
-.container {
-    width: 90%;
-    padding: 12px;
-}
-
-.box-qrcode h2 {
-    font-size: 16px;
-}
-
-.box-qrcode p {
-    font-size: 13px;
-}
-}
